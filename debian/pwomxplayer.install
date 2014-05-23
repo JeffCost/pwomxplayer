@@ -1,0 +1,3 @@
+pwomxplayer	usr/bin
+pwomxplayer.bin	usr/bin
+ffmpeg_compiled/usr/local/lib/lib*.so*	usr/lib/pwomxplayer

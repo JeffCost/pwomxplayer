@@ -1,0 +1,15 @@
+Source: pwomxplayer
+Section: unknown
+Priority: extra
+Maintainer: Colin Hogben (Piwall software) <colin@piwall.co.uk>
+Build-Depends: debhelper (>= 8.0.0), gcc (>= 4.7)
+Standards-Version: 3.9.3
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/pwomxplayer.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/pwomxplayer.git;a=summary
+
+Package: pwomxplayer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pwlibs1
+Description: Media player for PiWall
+ Variant of omxplayer, modified to support use in the PiWall system.

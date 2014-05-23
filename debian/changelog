@@ -1,0 +1,17 @@
+pwomxplayer (20130815) unstable; urgency=low
+
+  * Add --tile-code and --frame-size options
+
+ -- Colin Hogben (Piwall software) <colin@piwall.co.uk>  Thu, 15 Aug 2013 11:00:07 +0100
+
+pwomxplayer (20130805) unstable; urgency=low
+
+  * Fix pwomxplayer wrapper recursion
+
+ -- Colin Hogben (Piwall software) <colin@piwall.co.uk>  Mon, 05 Aug 2013 22:24:47 +0100
+
+pwomxplayer (20130729) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Colin Hogben (Piwall software) <colin@piwall.co.uk>  Mon, 29 Jul 2013 20:30:32 +0100

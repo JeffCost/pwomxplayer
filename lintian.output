@@ -1,0 +1,23 @@
+W: pwomxplayer source: debhelper-but-no-misc-depends pwomxplayer-doc
+W: pwomxplayer source: dh-make-template-in-source debian/manpage.1.ex
+W: pwomxplayer source: dh-make-template-in-source debian/manpage.sgml.ex
+W: pwomxplayer source: dh-make-template-in-source debian/manpage.xml.ex
+W: pwomxplayer source: dh-make-template-in-source debian/postinst.ex
+W: pwomxplayer source: dh-make-template-in-source debian/postrm.ex
+W: pwomxplayer source: dh-make-template-in-source debian/preinst.ex
+W: pwomxplayer source: dh-make-template-in-source debian/prerm.ex
+W: pwomxplayer source: changelog-should-mention-nmu
+W: pwomxplayer source: source-nmu-has-incorrect-version-number 20130729
+W: pwomxplayer source: unknown-paragraph-in-dep5-copyright paragraph at line 52
+W: pwomxplayer source: comma-separated-files-in-dep5-copyright paragraph at line 18
+W: pwomxplayer source: missing-license-paragraph-in-dep5-copyright boost_software_license_1.0 (paragraph at line 22)
+W: pwomxplayer-doc: copyright-has-url-from-dh_make-boilerplate
+E: pwomxplayer-doc: copyright-contains-dh_make-todo-boilerplate
+E: pwomxplayer-doc: description-is-dh_make-template
+E: pwomxplayer-doc: section-is-dh_make-template
+W: pwomxplayer-doc: wrong-section-according-to-package-name pwomxplayer-doc => doc
+W: pwomxplayer-doc: empty-binary-package
+W: pwomxplayer: copyright-has-url-from-dh_make-boilerplate
+E: pwomxplayer: copyright-contains-dh_make-todo-boilerplate
+W: pwomxplayer: readme-debian-contains-debmake-template
+E: pwomxplayer: section-is-dh_make-template

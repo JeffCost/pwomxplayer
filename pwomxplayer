@@ -1,0 +1,9 @@
+#!/bin/sh
+#-----------------------------------------------------------------------
+#	Run pwomxplayer.bin with special versions of ffmpeg libraries
+#-----------------------------------------------------------------------
+
+LD_LIBRARY_PATH=/usr/lib/pwomxplayer:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+
+exec pwomxplayer.bin "$@"

@@ -1,0 +1,18 @@
+To prepare a new release:
+
+* Set env vars for debian stuff
+   . ~/.dh_piwall
+
+* Update debian/changelog with suitable changes and version
+   dch -v $YYYYMMDD "Frobbed the wibble sprocket"
+    then s/UNREELASED/unstable/ in first line
+
+* Build everything (takes forever)
+   debuild
+
+* Copy .deb and .dsc to ~/aws-piwall on dinsdale (laptop)
+
+* Rebuild index.html
+   make
+
+* Upload new files to aws
